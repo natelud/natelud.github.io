@@ -1,1 +1,142 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Ludlow - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .skills, .experience, .education, .publications {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .skills ul, .experience ul, .education ul, .publications ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nathan Ludlow</h1>
+        <p>Research Assistant | Robotics Engineer</p>
+    </header>
+
+    <section class="contact-info">
+        <p>Email: <a href="mailto:nateludlow@gmail.com">nateludlow@gmail.com</a></p>
+        <p>Phone: 703-414-9063</p>
+        <p><a href="https://github.com/natelud">GitHub</a> | <a href="https://linkedin.com/in/nathan-ludlow">LinkedIn</a> | <a href="https://google.com">Website</a></p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <div>
+            <h3>Carnegie Mellon University</h3>
+            <p><strong>Masters of Science in Robotics</strong>, Expected Aug. 2026</p>
+            <p>GPA: 4.00/4.00</p>
+        </div>
+        <div>
+            <h3>Brigham Young University</h3>
+            <p><strong>Bachelor of Science in Mechanical Engineering</strong>, Apr. 2024</p>
+            <p>GPA: 3.79/4.00</p>
+            <p>Emphasis in Dynamic Systems, Controls, and Robotics</p>
+            <p>Minor in Computer Science, Minor in Mathematics</p>
+        </div>
+    </section>
+
+    <section class="experience">
+        <h2>Research Experience</h2>
+        <ul>
+            <li><strong>CMU Advanced Agent Robotics Technology Lab</strong> (Sept 2024 - Present)<br>Research Assistant (with Dr. Katia Sycara)<br>Neuro-Symbolic Multi-Agent Reinforcement Learning for coordinated ad-hoc teaming.</li>
+            <li><strong>CMU Driverless Intelligent Vehicles Lab</strong> (Aug 2023 - Aug 2024)<br>Research Assistant (with Dr. John M. Dolan)<br>Multi-agent safe navigation in uncertain environments. Evaluation of novel control barrier function-inspired risk-aware Voronoi cells.</li>
+            <li><strong>BYU Robotics And Dynamics Lab</strong> (Feb 2022 - June 2024)<br>Research Assistant (with Dr. Marc Killpack and Dr. John Salmon)<br>Dynamic human-robot co-manipulation of large objects. Developed cooperative methods and mobile robotic base platform.</li>
+        </ul>
+    </section>
+
+    <section class="publications">
+        <h2>Publications and Presentations</h2>
+        <ul>
+            <li><strong><a href="https://ieeexplore.ieee.org/document/10610354">N. Ludlow, Y. Lyu, J. Dolan</a></strong> "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling," ICRA 2024.</li>
+            <li><strong><a href="https://our.utah.edu/ucur/mobile-base-for-physical-human-robot-interaction-and-co-manipulation/">N. Ludlow, M. D. Killpack, J. L. Salmon</a></strong> "Mobile Base for Physical Human-Robot Interaction," UCUR 2023.</li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, C++, C, MATLAB, Java</li>
+            <li><strong>Technologies/Frameworks:</strong> ROS, PyTorch, TensorFlow, Linux, Git, Networking</li>
+            <li><strong>Languages:</strong> English (Native), Spanish (Fluent)</li>
+        </ul>
+    </section>
+
+    <section class="awards">
+        <h2>Awards</h2>
+        <ul>
+            <li>NSF Graduate Research Fellowship Program (GRFP) Honorable Mention, 2024</li>
+            <li>CMU Robotics Institute Summer Scholars (RISS) Fellowship, 2023</li>
+        </ul>
+    </section>
+
+    <section class="leadership">
+        <h2>Leadership</h2>
+        <ul>
+            <li><strong>RoboLaunch Outreach Program (CMU Robotics Institute)</strong> - Communications Lead (Aug 2023 - Feb 2024)</li>
+            <li><strong>BYU Mechatronics Club</strong> - Team Lead (Sept 2021 - Apr 2022)</li>
+        </ul>
+    </section>
+
+    <section class="extracurricular">
+        <h2>Extracurricular</h2>
+        <ul>
+            <li>CMU Recreational Volleyball Club (Sept 2024 - Current)</li>
+            <li>BYU Mars Rover Team (Sept 2018 - Apr 2019)</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+
