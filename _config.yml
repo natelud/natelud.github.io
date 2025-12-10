@@ -1,21 +1,21 @@
 # Site Settings
-title: "Nate Stoll - Robotics Researcher"
-name: "Nate Stoll"
-description: "PhD Student at Carnegie Mellon University Robotics Institute"
+title: "Nate Ludlow - Robotics Researcher"
+name: "Nate Ludlow"
+description: "Masters Student at Carnegie Mellon University Robotics Institute"
 url: "https://yourusername.github.io"
 baseurl: ""
 repository: "yourusername/yourusername.github.io"
 
 # Site Author
 author:
-  name: "Nate Stoll"
+  name: "Nate Ludlow"
   avatar: "images/profile.png"
-  bio: "PhD Student @ CMU Robotics Institute | Human-Robot Interaction | Knowledge Graph-Augmented RL"
+  bio: "Masters Student @ CMU Robotics Institute | Human-Robot Interaction | Neurosymbic RL"
   location: "Pittsburgh, PA"
   employer: "Carnegie Mellon University"
   
   # Social media links
-  email: "nstoll@andrew.cmu.edu"
+  email: "nludlow@andrew.cmu.edu"
   uri: 
   github: "yourgithub"
   google_scholar: "your_scholar_id"
