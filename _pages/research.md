@@ -156,4 +156,4 @@ I'm broadly interested in:
 
 ---
 
-*I'm actively seeking PhD positions for Fall 2026 in labs working on physical human-robot interaction. If you're interested in collaboration or have questions about my research, please reach out!*
+*I'm actively seeking PhD positions for Fall 2026 in labs working on physical human-robot interaction.*
