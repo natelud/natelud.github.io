@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+permalink: https://ieeexplore.ieee.org/abstract/document/10610354
+excerpt: 'This paper presents a novel approach to modeling human driving behavior, designed for use in evaluating autonomous vehicle control systems in a simulation environments. Our methodology leverages a hierarchical forward-looking, risk-aware estimation framework with learned parameters to generate human-like driving trajectories, accommodating multiple driver levels determined by model parameters. This approach is grounded in multimodal trajectory prediction, using a deep neural network with LSTM-based social pooling to predict the trajectories of surrounding vehicles. These trajectories are used to compute forward-looking risk assessments along the ego vehicle’s path, guiding its navigation. Our method aims to replicate human driving behaviors by learning parameters that emulate human decision-making during driving. We ensure that our model exhibits robust generalization capabilities by conducting simulations, employing real-world driving data to validate the accuracy of our approach in modeling human behavior. The results reveal that our model effectively captures human behavior, showcasing its versatility in modeling human drivers in diverse highway scenarios.'
 date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
+venue: '2024 IEEE International Conference on Robotics and Automation (ICRA)'
 bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'N. Ludlow, Y. Lyu and J. Dolan, "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024, pp. 2223-2229, doi: 10.1109/ICRA57147.2024.10610354.
+keywords: {Road transportation;Computational modeling;Predictive models;Data models;Behavioral sciences;Trajectory;Planning;Human modeling;Risk-aware;Social Pooling;Trajectory Prediction;Autonomous Vehicles;Simulation;Robotics},'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
