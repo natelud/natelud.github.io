@@ -15,75 +15,122 @@ redirect_from:
 
 ## Education
 
-* **Ph.D. Student in Robotics**, Carnegie Mellon University, 2023-Present
-  * Advisor: Professor Katia Sycara
-  * Research: Neuro-symbolic approaches for human-robot interaction, Knowledge graph-augmented reinforcement learning
+* **M.S. in Robotics**, Carnegie Mellon University, Expected July 2026
+  * Advisor: Dr. Katia Sycara
+  * GPA: 4.00/4.00
+  * Pittsburgh, PA
   
-* **B.S. in Mechanical Engineering**, Brigham Young University, 2023
-  * Research in RAD Lab under Professor Marc Killpack
-  * Focus: Dynamic human-robot co-manipulation and control systems
+* **B.S. in Mechanical Engineering**, Brigham Young University, April 2024
+  * Emphasis in Dynamic Systems, Controls, and Robotics
+  * Minor in Computer Science
+  * Minor in Mathematics
+  * GPA: 3.79/4.00
+  * Provo, UT
 
 ## Research Experience
 
-* **Graduate Research Assistant** (2023-Present)
-  * Advanced Agent-Robotics Technology (AART) Lab, Carnegie Mellon University
-  * Advisor: Professor Katia Sycara
-  * Developing knowledge graph-augmented RL methods for human-robot collaboration
-  * Building temporal knowledge graph approaches for multi-agent systems
-  * Collaborating with Honda Research Institute on neuro-symbolic AI for robotics
+**Graduate Research Assistant** (September 2024 – Present)  
+*CMU Advanced Agent Robotics Technology (AART) Lab*  
+Advisor: Dr. Katia Sycara | Pittsburgh, PA
 
-* **Robotics Institute Summer Scholar (RISS Fellow)** (Summer 2023)
-  * DRIVE Lab, Carnegie Mellon University
-  * Advisor: Professor John Dolan
-  * Developed human driver behavior models for autonomous vehicles
-  * Published at ICRA 2024
+* Developed Knowledge Graph-Augmented Reinforcement Learning (KG-RL) methods that leverage semantic relationships to improve agent learning efficiency on complex tasks. Led to first-author paper submission at AAMAS 2026. Collaborative research with Honda Research Institute.
+* Investigating Temporal Knowledge Graph representations for reinforcement learning, enabling agents to reason over dynamic state evolutions and temporal dependencies.
 
-* **Undergraduate Research Assistant** (2020-2023)
-  * RAD Lab, Brigham Young University
-  * Advisor: Professor Marc Killpack
-  * Three years of research on dynamic human-robot co-manipulation
-  * Developed control systems for assistive robotics
-  * Capstone project on automated robotic phenotyping systems (IEEE Sensors under review)
+**Research Assistant** (August 2023 – August 2024)  
+*CMU Driverless Intelligent Vehicles Lab (DRIVE Lab)*  
+Advisor: Dr. John M. Dolan | Pittsburgh, PA/Remote
 
-## Industry Experience
+* Developed risk-aware Voronoi cell approach inspired by control barrier functions for safe multi-agent navigation under motion uncertainty. Enables collision-free path planning around dynamic obstacles including humans, unknown agents, and moving objects with uncertain trajectories.
 
-* **Robotics Engineer**, Altitude AI
-  * Developed robotic automation systems
-  * Applied machine learning to real-world robotic applications
+**RISS Research Fellow** (June 2023 – August 2023)  
+*CMU Robotics Institute Summer Scholars (RISS)*  
+Advisor: Dr. John M. Dolan | Pittsburgh, PA
+
+* Developed behavioral model for simulating human drivers in autonomous vehicle testing frameworks. Introduced forward-looking Gaussian risk metric incorporating social pooling-based trajectory prediction with learned parameters. RISS Fellowship project; first-author publication at ICRA 2024.
+
+**Capstone Research Project Team Lead** (September 2023 – April 2024)  
+*BYU Crop Biomechanics Laboratory*  
+Advisor: Dr. Douglas Cook | Provo, UT
+
+* Led research team developing automated robotic system for measuring maize stalk stiffness. Designed novel strain gauge sensor package and data processing algorithms to convert strain measurements into stiffness metrics. Implemented autonomous navigation and data collection control algorithms for robotic platform. Publication at MDPI Sensors 2025.
+
+**Research Assistant** (February 2022 – June 2023, August 2023 – June 2024)  
+*BYU Robotics And Dynamics (RAD) Laboratory*  
+Advisors: Dr. Marc Killpack and Dr. John Salmon | Provo, UT
+
+* Developed dynamic control methods for physical human-robot co-manipulation enabling cooperative swinging, throwing, and tossing of large objects.
+* Designed ROS software architecture and implemented robust control algorithms for omnidirectional mobile platform for safe human-robot interaction and physical co-manipulation. UCUR 2023 workshop presentation.
+* Built VR experimental platform with force/torque sensing for analyzing human-human interaction dynamics during cooperative manipulation tasks.
 
 ## Publications
+
+### Conference Publications
 
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-## Talks & Presentations
 
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-## Teaching & Service
+* **N. Ludlow**, Y. Lyu and J. Dolan, "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024, pp. 2223-2229, doi: 10.1109/ICRA57147.2024.10610354
 
-* Teaching Assistant, Carnegie Mellon University
-* Active in religious community youth activities and education
-* Newsletter coordination and community organization
+### Journal Publications
 
-## Skills
+* C. Noh, K. Smith, C. Shamo, J. Porter, K. Steele, **N. Ludlow**, R. Hall, M. Holst, A. Williams, D. Cook, "Measurement of Force and Position Using a Cantilever Beam and Multiple Strain Gauges: Sensing Principles and Design Considerations." MDPI Sensors 2025, 25, 6561. PMID: 41228787
 
-**Programming Languages:** Python, MATLAB, C++, Julia
+### Workshop Presentations
 
-**Robotics Frameworks:** ROS/ROS2, MoveIt, Gazebo, PyBullet
+* **N. Ludlow**, M. D. Killpack, J. L. Salmon, "Mobile Base for Physical Human-Robot Interaction and Co-manipulation," 2023 Utah Conference for Undergraduate Research (UCUR), 2023
 
-**Machine Learning:** PyTorch, TensorFlow, scikit-learn, Stable-Baselines3
+## Professional Experience
 
-**Simulation & Control:** Overcooked-AI, MuJoCo, OpenAI Gym, Control Systems Design
+**Robotics Software Engineer** (May 2022 – June 2023, August 2023 – September 2023)  
+*Altitude AI* | Salt Lake City, UT
 
-**Knowledge Representation:** Knowledge Graphs, Temporal Reasoning, Neuro-symbolic AI
+* Designed perception, path planning, and control algorithms for automated pork belly skin removal using industrial robotic arms with electric cutting tools.
+* Developed domain-specific programming language enabling LLMs to generate executable code for industrial robotic arms from natural language instructions, enabling rapid prototyping of manipulation tasks.
 
-**Other Tools:** Git, Linux, LaTeX, Docker
+## Awards & Honors
 
-## Honors & Awards
+* **CMU Robotics Institute Graduate Research Assistantship** (Winter 2025 – Fall 2026)
+* **NSF Graduate Research Fellowship Program (GRFP) Honorable Mention** (2024)
+* **BYU Full Tuition Scholarship Recipient** (2021 – 2022)
 
-* Robotics Institute Summer Scholars (RISS) Fellowship, CMU (2023)
-* [Add other relevant awards and honors]
+## Technical Skills
+
+**Programming Languages:** Python, C++, C, MATLAB, Java, Julia, Rust
+
+**Robotics Frameworks:** ROS, Gazebo, MuJoCo, PyBullet, OpenCV, RealSense SDK
+
+**Machine Learning/RL:** PyTorch, TensorFlow, RLlib, Weights & Biases, OpenAI Gym
+
+**Robot Platforms:** Yaskawa, XArm, Universal Robots, Franka Panda, KUKA, Farm-ng
+
+**Tools:** Linux, Git, Docker, LaTeX
+
+**Languages:** English (Native), Spanish (Fluent)
+
+## Service & Leadership
+
+**Ecclesiastical Leader** (October 2025 – Present)  
+*Church of Jesus Christ of Latter-day Saints*
+
+* Coordinate volunteer programs including youth activities, missionary support, and community outreach for 150+ member congregation.
+
+**RoboLaunch Outreach Program** (August 2023 – February 2024)  
+*Carnegie Mellon University Robotics Institute*
+
+* Participated in outreach with students in Chile and the US to promote RoboLaunch and RISS.
+* Managed email campaign and website for the 2023 CMU RoboLaunch program.
+
+**BYU Mechatronics Club Team Lead** (September 2021 – April 2022)
+
+* Designed competition materials for club competitions.
+* Led trainings in software, electrical, and mechanical design for robotic systems and controls.
+
+**Full Time Volunteer Representative** (May 2019 – May 2021)  
+*The Church of Jesus Christ of Latter-day Saints*
+
+**Additional Leadership:**
+
+* BYU Mars Rover Robot Arm Design Team (September 2018 – April 2019)
+* BYU SAE Baja Off-Roading Vehicle Design Team (September 2018 – April 2019)
+* FIRST Robotics Team Mentor (September 2018 – April 2019)
