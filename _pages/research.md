@@ -129,33 +129,16 @@ Designed and built an automated robotic system for measuring maize stalk mechani
 
 ---
 
-### Advanced Control Methods for Safe Robotics
-*Graduate Coursework | 2024*
-
-Comprehensive study and implementation of safety-critical control techniques essential for safe, reliable robotic systems operating near humans.
-
-**Methods Explored:**
-- **Hamilton-Jacobi Reachability:** Compute safe operating regions with formal guarantees
-- **Control Barrier Functions (CBF):** Real-time safe control synthesis via optimization
-- **Model Predictive Control (MPC):** Optimal control with constraints for trajectory tracking
-- **Model Reference Adaptive Control (MRAC):** Handle system uncertainties and parameter variations
-- **State Estimation:** EKF, UKF, and particle filters for robot localization
-
-**Key Takeaway:** Combining methods yields robust systems—learning with safety certificates, adaptation with optimal control, and prediction with reachability analysis.
-
-**Relevance:** These control foundations inform my research on safe physical human-robot collaboration, enabling safety guarantees, adaptation to human variability, and proactive control.
-
----
-
 ## Research Interests
 
 I'm broadly interested in:
 
 - **Physical Human-Robot Interaction:** Safe and natural interaction through touch and force sharing
-- **Neuro-symbolic AI:** Combining learning with structured knowledge for robustness and interpretability
 - **Multi-agent Systems:** Effective coordination between robots and humans in shared tasks
 - **Assistive Robotics:** Robots that help people in everyday life
 - **Safety-critical Control:** Guaranteeing safe behavior in uncertain, dynamic environments with humans
+- **Learning from Demonstrations:** Using human demonstrations to train robots to behave more optimally and interpretably
+- **Neuro-symbolic AI:** Combining learning with structured knowledge for robustness and interpretability
 
 ## Collaborations
 
