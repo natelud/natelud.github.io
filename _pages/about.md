@@ -31,4 +31,4 @@ I'm currently developing temporal knowledge graph methods for reinforcement lear
 
 ---
 
-*I'm actively preparing PhD applications for Fall 2026, with a focus on physical human-robot interaction research at top robotics programs.*
+*I'm actively preparing PhD applications for Fall 2026, with a focus on physical human-robot interaction research.*
