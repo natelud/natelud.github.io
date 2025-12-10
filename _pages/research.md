@@ -83,13 +83,13 @@ Investigated control strategies for robots that physically collaborate with huma
 - Integrated 6-axis force-torque sensors operating at 1kHz+ update rates to measure interaction forces during dynamic manipulation
 - Conducted stability analysis of coupled human-robot dynamics to ensure safe physical interaction during high-acceleration tasks
 
-**Key Contributions:**
-- Dynamic co-manipulation tasks (throwing, tossing) require careful tuning of impedance parameters to balance responsiveness with stability
-- VR-augmented reality systems provide an effective platform for studying and training human-robot collaboration behaviors
-- Human partners exhibit significant variability in applied forces and movement strategies, requiring adaptive control approaches
-- Transparent, predictable robot behavior that clearly communicates intent builds operator trust and improves task performance
+**Contributions:**
+- Demonstrated successful dynamic co-manipulation (throwing, tossing) through careful tuning of impedance control parameters to balance responsiveness with stability
+- Created VR-augmented experimental platform that enables systematic study of human-robot collaboration dynamics and serves as a training tool for operators
+- Developed adaptive impedance control framework that accommodates significant variability in human partner forces and movement strategies
+- Designed transparent control behaviors that communicate robot intent, improving operator trust and collaborative task performance
 
-**Presentation:** UCUR 2023 Workshop | **Advisor:** Prof. Marc Killpack
+**Presentation:** UCUR 2023 Workshop | **Advisor:** Dr. Marc Killpack and Dr. John Salmon
 
 ---
 
