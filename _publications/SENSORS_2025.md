@@ -9,5 +9,3 @@ venue: 'MDPI Sensors'
 bibtexurl: 'https://natelud.github.io/files/SENSORS_2025.bib'
 citation: 'Noh, C.T.; Smith, K.; Shamo, C.L.; Porter, J.; Steele, K.; Ludlow, N.D.; Hall, R.W.; Holst, M.G.; Williams, A.R.; Cook, D.D. Measurement of Force and Position Using a Cantilever Beam and Multiple Strain Gauges: Sensing Principles and Design Considerations. Sensors 2025, 25, 6561. https://doi.org/10.3390/s25216561'
 ---
-
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
