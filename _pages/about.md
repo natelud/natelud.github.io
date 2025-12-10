@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Masters student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, where I work with [Professor Katia Sycara](https://www.cs.cmu.edu/~sycara/) in the [Advanced Agent-Robotics Technology (AART) Lab](https://www.cs.cmu.edu/~aart/). My research focuses on developing neuro-symbolic approaches for human-robot interaction, with particular emphasis on knowledge graph-augmented reinforcement learning (KG-RL) and temporal knowledge graphs for collaborative robotics.
+I'm a Masters student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, where I work with [Professor Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) in the [Advanced Agent-Robotics Technology (AART) Lab](https://www.ri.cmu.edu/robotics-groups/advanced-agent-robotics-technology-lab/). My research focuses on developing neuro-symbolic approaches for human-robot interaction, with particular emphasis on knowledge graph-augmented reinforcement learning (KG-RL) and temporal knowledge graphs for collaborative robotics.
 
 ## Research Interests
 
@@ -21,9 +21,9 @@ My work sits at the intersection of machine learning, robotics, and human-robot 
 
 ## Background
 
-Before joining CMU, I completed my undergraduate degree in Mechanical Engineering at Brigham Young University, where I spent three years in the [RAD Lab](https://radlab.byu.edu/) under [Professor Marc Killpack](https://me.byu.edu/faculty/marckilpack) working on dynamic human-robot co-manipulation and control systems. I also gained industry experience at Altitude AI developing robotic automation systems.
+Before joining CMU, I completed my undergraduate degree in Mechanical Engineering at Brigham Young University, where I spent three years in the [RAD Lab](http://radlab.byu.edu/) under [Professor Marc Killpack](https://www.me.byu.edu/directory/marc-killpack) working on dynamic human-robot co-manipulation and control systems. I also gained industry experience at Altitude AI developing robotic automation systems.
 
-During my time at CMU, I completed a [Robotics Institute Summer Scholars (RISS)](https://riss.ri.cmu.edu/) Fellowship working with [Professor John Dolan](https://www.ri.cmu.edu/ri-faculty/john-m-dolan/) in the DRIVE Lab on human driver modeling for autonomous vehicles.
+During my time at CMU, I completed a [Robotics Institute Summer Scholars (RISS)](https://riss.ri.cmu.edu/student/nathan-ludlow/) Fellowship working with [Professor John Dolan](https://www.ri.cmu.edu/ri-faculty/john-m-dolan/) in the DRIVE Lab on human driver modeling for autonomous vehicles.
 
 ## Current Work
 
