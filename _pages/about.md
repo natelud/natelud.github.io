@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Masters student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, where I work with [Professor Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) in the [Advanced Agent-Robotics Technology (AART) Lab](https://www.ri.cmu.edu/robotics-groups/advanced-agent-robotics-technology-lab/). My research focuses on developing neuro-symbolic approaches for human-robot interaction, with particular emphasis on knowledge graph-augmented reinforcement learning (KG-RL) and temporal knowledge graphs for collaborative robotics.
+I'm a Masters student in the [Robotics Institute](https://www.ri.cmu.edu/) at Carnegie Mellon University, where I work with [Professor Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) in the [Advanced Agent-Robotics Technology (AART) Lab](https://www.ri.cmu.edu/robotics-groups/advanced-agent-robotics-technology-lab/). My current research focuses on developing neuro-symbolic approaches for robot learning and human-robot interaction, with particular emphasis on using knowledge graphs to augmented reinforcement learning in my KG-RL method.
 
 ## Research Interests
 
