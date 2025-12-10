@@ -7,6 +7,10 @@ redirect_from:
   - /resume
 ---
 
+[Download full CV (PDF)]({{ site.baseurl }}/files/CV_Nate_Ludlow.pdf)
+
+---
+
 {% include base_path %}
 
 ## Education
@@ -83,7 +87,3 @@ redirect_from:
 
 * Robotics Institute Summer Scholars (RISS) Fellowship, CMU (2023)
 * [Add other relevant awards and honors]
-
----
-
-[Download full CV (PDF)]({{ site.baseurl }}/files/cv.pdf)
