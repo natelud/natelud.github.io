@@ -24,13 +24,13 @@ repository               : "natelud/natelud.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Nate Ludlow"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Pittsburgh, PA"
+  employer         : "Carnegie Mellon University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "nludlow@andrew.cmu.edu" 
 
   # Academic websites
   academia         : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "nathan-ludlow"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -84,8 +84,6 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
