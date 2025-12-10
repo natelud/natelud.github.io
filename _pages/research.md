@@ -30,7 +30,7 @@ I'm developing methods that integrate knowledge graphs with deep reinforcement l
 
 **Technologies:** PyTorch, PyTorch Geometric, Stable-Baselines3, Overcooked-AI environment
 
-**Status:** Preparing submission to AAMAS 2026 | Collaboration with Honda Research Institute
+**Status:** Submission in review for AAMAS 2026 | Collaboration with Honda Research Institute
 
 ---
 
