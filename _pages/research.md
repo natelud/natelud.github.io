@@ -93,20 +93,18 @@ Investigated control strategies for robots that physically collaborate with huma
 
 ---
 
-### Automated Agricultural Phenotyping
+### Automated Maize Stalk Stiffness Measurement
 *BYU Crop Biomechanics Laboratory | Capstone Project 2023-2024*
 
-Led a capstone research team developing an automated robotic system for measuring maize stalk mechanical properties. The system enables high-throughput phenotyping for agricultural research, helping plant breeders identify desirable genetic traits.
+Led a capstone research team developing an automated robotic system for measuring maize stalk mechanical properties. The system enables high-throughput measurement for agricultural research, helping plant breeders identify desirable genetic traits, and farmers idnetify fields that need additional help, or earlier harvest times.
 
 **System Design:**
 - Novel strain gauge sensor package for non-destructive stiffness testing
 - Data processing algorithms to convert strain measurements into stiffness metrics
-- Computer vision for stalk identification and positioning
-- Adaptive gripping for varying stalk sizes
 - Autonomous navigation and data collection control algorithms for robotic platform
 
 **Results:**
-- Reduced measurement time by 80% compared to manual methods
+- Reduced measurement time by over 500% compared to manual methods
 - Improved measurement consistency and repeatability
 - System deployed for ongoing agricultural research
 
@@ -117,7 +115,7 @@ Led a capstone research team developing an automated robotic system for measurin
 ### Industrial Robotic Automation
 *Altitude AI | 2022-2023*
 
-Developed robotic automation systems for meat packing and processing applications using industrial robotic arms. This work bridged advanced AI techniques with practical industrial deployment challenges.
+Developed robotic automation systems for meat packing and processing applications using industrial robotic arms.
 
 **Key Projects:**
 
@@ -134,8 +132,6 @@ Developed robotic automation systems for meat packing and processing application
 
 **Impact:** Demonstrated practical application of advanced AI and robotics techniques in challenging industrial environments with strict performance and safety requirements.
 
-**Technologies:** Industrial robotic arms (Yaskawa, Universal Robots), computer vision, motion planning, force control
-
 ---
 
 ## Research Interests
@@ -151,9 +147,9 @@ I'm broadly interested in:
 
 ## Collaborations
 
-- **Honda Research Institute:** Neuro-symbolic approaches for robotic collaboration
+- **Honda Research Institute:** Neuro-symbolic approaches for robotic collaboration and student-teacher methods
 - **CMU AART Lab:** Core research on KG-RL and TKG-RL methods
-- **CMU DRIVE Lab:** Human-robot interaction in autonomous driving contexts
+- **CMU DRIVE Lab:** Human-robot interaction in autonomous driving contexts and autonomus navigation
 - **BYU RAD Lab:** Physical human-robot collaboration and control
 - **BYU Crop Biomechanics Laboratory:** Agricultural robotics and automation
 - **Altitude AI:** Industrial robotic automation
