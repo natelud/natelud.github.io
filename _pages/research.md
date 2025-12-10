@@ -68,10 +68,14 @@ Building on the KG-RL framework, I'm exploring how temporal knowledge graphs can
 Developed computational models of human driver behavior to improve autonomous vehicle prediction and decision-making systems. This work addresses a critical challenge in mixed autonomy: understanding and anticipating human driver actions in complex traffic scenarios.
 
 **Contributions:**
-- Novel approach to characterizing individual driving styles
+- Hierarchical learned risk-aware planning framework for human driving simulation
+- Novel forward-looking Gaussian risk metric incorporating social pooling-based trajectory prediction
 - Improved prediction accuracy in complex traffic scenarios
 - Framework for integrating human models into AV decision-making
 - Enhanced AV safety through better human behavior anticipation
+
+**Follow-on Work:**
+After completing the RISS Fellowship, I continued working with the DRIVE Lab to develop Control Barrier Function-inspired Voronoi cell navigation techniques that enable large numbers of agents in multi-agent systems to quickly compute safe controls under motion uncertainty.
 
 **Impact:** Better prediction of human behavior enables reduced collision risk, more comfortable AV maneuvers, and improved handling of edge cases.
 
@@ -82,7 +86,7 @@ Developed computational models of human driver behavior to improve autonomous ve
 ---
 
 ### Dynamic Human-Robot Co-Manipulation
-*BYU RAD Lab | 2020-2023*
+*BYU RAD Lab | 2022-2024*
 
 Investigated control strategies for robots that physically collaborate with humans in manipulation tasks. Focused on developing systems that can safely share forces with human partners while accomplishing shared goals, with applications to assistive technologies and collaborative manufacturing.
 
@@ -103,29 +107,54 @@ Investigated control strategies for robots that physically collaborate with huma
 - Force feedback is critical for natural collaboration
 - Safety must be designed into fundamental control laws
 
-**Advisor:** Prof. Marc Killpack | **Lab:** Robotic and Autonomous Dynamics (RAD) Lab
+**Presentation:** UCUR 2023 Workshop | **Advisor:** Prof. Marc Killpack | **Lab:** Robotic and Autonomous Dynamics (RAD) Lab
 
 ---
 
 ### Automated Agricultural Phenotyping
-*BYU Capstone Project | 2023*
+*BYU Crop Biomechanics Laboratory | Capstone Project 2023-2024*
 
-Designed and built an automated robotic system for measuring maize stalk mechanical properties. The system enables high-throughput phenotyping for agricultural research, helping plant breeders identify desirable genetic traits.
+Led a capstone research team developing an automated robotic system for measuring maize stalk mechanical properties. The system enables high-throughput phenotyping for agricultural research, helping plant breeders identify desirable genetic traits.
 
 **System Design:**
-- Custom end-effector for non-destructive stiffness testing
+- Novel strain gauge sensor package for non-destructive stiffness testing
+- Data processing algorithms to convert strain measurements into stiffness metrics
 - Computer vision for stalk identification and positioning
 - Adaptive gripping for varying stalk sizes
-- Real-time data collection and processing pipeline
+- Autonomous navigation and data collection control algorithms for robotic platform
 
 **Results:**
 - Reduced measurement time by 80% compared to manual methods
 - Improved measurement consistency and repeatability
 - System deployed for ongoing agricultural research
 
-**Publication:** Under review at IEEE Sensors Journal
+**Publication:** MDPI Sensors 2025 | **Advisor:** Dr. Douglas Cook
 
-**Technologies:** Custom manipulator design, ROS, computer vision (OpenCV), force control systems
+**Technologies:** Custom manipulator design, ROS, computer vision (OpenCV), force control systems, strain gauge instrumentation
+
+---
+
+### Industrial Robotic Automation
+*Altitude AI | 2022-2023*
+
+Developed robotic automation systems for meat packing and processing applications using industrial robotic arms. This work bridged advanced AI techniques with practical industrial deployment challenges.
+
+**Key Projects:**
+
+**LLM-Driven Robot Programming:**
+- Developed a domain-specific programming language that enables large language models to generate executable code for industrial robots from natural language instructions
+- Dramatically accelerated prototyping of robotic manipulation tasks
+- Enabled rapid iteration on manipulation strategies without manual programming
+
+**Pork Skinning Robotic System:**
+- Full stack development of automated pork belly skin removal system
+- Image segmentation algorithms for identifying skin patches on irregular surfaces
+- Path planning and control algorithms for precision cutting with industrial robot arms
+- Perception, planning, and control pipeline for autonomous operation
+
+**Impact:** Demonstrated practical application of advanced AI and robotics techniques in challenging industrial environments with strict performance and safety requirements.
+
+**Technologies:** Industrial robotic arms (Yaskawa, Universal Robots), computer vision, motion planning, force control
 
 ---
 
@@ -146,6 +175,8 @@ I'm broadly interested in:
 - **CMU AART Lab:** Core research on KG-RL and TKG-RL methods
 - **CMU DRIVE Lab:** Human-robot interaction in autonomous driving contexts
 - **BYU RAD Lab:** Physical human-robot collaboration and control
+- **BYU Crop Biomechanics Laboratory:** Agricultural robotics and automation
+- **Altitude AI:** Industrial robotic automation
 
 ---
 
