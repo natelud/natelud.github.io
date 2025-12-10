@@ -56,7 +56,7 @@ Building on the KG-RL framework, I'm exploring how temporal knowledge graphs can
 
 **Technologies:** PyTorch (VAE, LSTM), MPPI controllers, Flask backend for visualization
 
-**Status:** Active development | Exploring connections to Runtime Temporal Inference (RTTI) methods
+**Status:** Active development
 
 ---
 
