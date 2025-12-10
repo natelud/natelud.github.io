@@ -28,33 +28,19 @@ I'm developing methods that integrate knowledge graphs with deep reinforcement l
 - Integration with actor-critic RL framework using attention mechanisms
 - Dynamic graph updates based on observed interactions
 
-**Technologies:** PyTorch, PyTorch Geometric, Stable-Baselines3, Overcooked-AI environment
-
-**Status:** Submission in review for AAMAS 2026 | Collaboration with Honda Research Institute
+**Status:** Submission in review for AAMAS 2026 | Collaboration with Honda Research Institute | **Advisor:** Dr. Katia Sycara
 
 ---
 
 ### Temporal Knowledge Graphs for RL (TKG-RL)
 
-Building on the KG-RL framework, I'm exploring how temporal knowledge graphs can help robots reason about dynamic environments and predict human behaviors over time. This addresses the challenge of representing and utilizing time-varying relationships in collaborative robotics.
-
-**Motivation:** Human collaborators don't just understand current relationships—they anticipate how situations will unfold. A robot working alongside a human should predict when the human will need ingredients, anticipate bottlenecks, and proactively adjust its behavior. TKG-RL enables this forward-looking reasoning.
+Building on my KG-RL framework, I'm exploring how temporal knowledge graphs can help robots reason about dynamic environments. This addresses the challenge of representing and utilizing time-varying relationships in collaborative robotics.
 
 **Key Innovations:**
-- **2.5x improvement** in sample efficiency over standard RL
+- **2.5x improvement** in sample efficiency over standard RL in enviroments with highly difficult temporal dynamics
 - Time-stamped edges capturing evolving relationships
-- Variational Autoencoder (VAE) for trajectory prediction
-- LSTM-based encoding of temporal patterns
-- Integration with Model Predictive Path Integral (MPPI) control
+- LSTM-based encoding of temporal graph patterns
 - Backpropagation Through Time (BPTT) for temporal graph updates
-
-**Current Focus:**
-- Overcooked-AI environment with 100+ recipe configurations
-- Real-time strategy inference and adaptation
-- Successful prediction of human strategy changes
-- Reduced collision rates in shared workspace scenarios
-
-**Technologies:** PyTorch (VAE, LSTM), MPPI controllers, Flask backend for visualization
 
 **Status:** Active development
 
@@ -77,37 +63,22 @@ Developed computational models of human driver behavior to improve autonomous ve
 **Follow-on Work:**
 After completing the RISS Fellowship, I continued working with the DRIVE Lab to develop Control Barrier Function-inspired Voronoi cell navigation techniques that enable large numbers of agents in multi-agent systems to quickly compute safe controls under motion uncertainty.
 
-**Impact:** Better prediction of human behavior enables reduced collision risk, more comfortable AV maneuvers, and improved handling of edge cases.
-
-**Publication:** ICRA 2024 | **Advisor:** Prof. John Dolan
-
-**Technologies:** Machine learning for driver classification, probabilistic trajectory prediction, CARLA simulation, ROS-based AV stack
+**Publication:** ICRA 2024 | **Advisor:** Dr. John Dolan
 
 ---
 
 ### Dynamic Human-Robot Co-Manipulation
 *BYU RAD Lab | 2022-2024*
 
-Investigated control strategies for robots that physically collaborate with humans in manipulation tasks. Focused on developing systems that can safely share forces with human partners while accomplishing shared goals, with applications to assistive technologies and collaborative manufacturing.
+Investigated control strategies for robots that physically collaborate with humans in manipulation tasks. Focused on developing systems that can safely share forces with human partners while accomplishing shared goals, with applications to assistive technologies and collaborative manufacturing. Work involved developing an omnidirectional mobile robotic base used in human-robot co-manipulation tasks, designing and building a VR system that allowed human participants to see desired collaborative task goals in the real world through their VR headset, and tested dynamic co-manipulation tequiresue, building adaptations to impednace control methods that alllowed dynamic co-manipulation between humans and robots with actions such as throwing objects jointly.
 
 **Technical Approach:**
-- Compliant control for safe force sharing using admittance/impedance frameworks
-- Real-time adaptation to human partner inputs
-- Force-torque sensing integration (6-axis sensors, 1kHz+ update rates)
-- Stability analysis for physical interaction
 
 **Applications:**
-- Assistive manipulation for mobility-impaired users
-- Shared control of heavy or awkward objects
-- Collaborative assembly in manufacturing contexts
 
 **Key Insights:**
-- Human variability requires adaptive control approaches
-- Transparency in robot behavior builds trust
-- Force feedback is critical for natural collaboration
-- Safety must be designed into fundamental control laws
 
-**Presentation:** UCUR 2023 Workshop | **Advisor:** Prof. Marc Killpack | **Lab:** Robotic and Autonomous Dynamics (RAD) Lab
+**Presentation:** UCUR 2023 Workshop | **Advisor:** Prof. Marc Killpack
 
 ---
 
@@ -129,8 +100,6 @@ Led a capstone research team developing an automated robotic system for measurin
 - System deployed for ongoing agricultural research
 
 **Publication:** MDPI Sensors 2025 | **Advisor:** Dr. Douglas Cook
-
-**Technologies:** Custom manipulator design, ROS, computer vision (OpenCV), force control systems, strain gauge instrumentation
 
 ---
 
