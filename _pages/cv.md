@@ -66,11 +66,11 @@ Advisors: Dr. Marc Killpack and Dr. John Salmon | Provo, UT
 
 ### Conference Publications
 
-* [**N. Ludlow**, Y. Lyu and J. Dolan, "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024, pp. 2223-2229, doi: 10.1109/ICRA57147.2024.10610354](https:/doi.org/10.3390/s25216561)
+* [**N. Ludlow**, Y. Lyu and J. Dolan, "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024, pp. 2223-2229, doi: 10.1109/ICRA57147.2024.10610354](https://doi.org/10.3390/s25216561)
 
 ### Journal Publications
 
-* [C. Noh, K. Smith, C. Shamo, J. Porter, K. Steele, **N. Ludlow**, R. Hall, M. Holst, A. Williams, D. Cook, "Measurement of Force and Position Using a Cantilever Beam and Multiple Strain Gauges: Sensing Principles and Design Considerations." MDPI Sensors 2025, 25, 6561. PMID: 41228787](https:/doi.org/10.3390/s25216561)
+* [C. Noh, K. Smith, C. Shamo, J. Porter, K. Steele, **N. Ludlow**, R. Hall, M. Holst, A. Williams, D. Cook, "Measurement of Force and Position Using a Cantilever Beam and Multiple Strain Gauges: Sensing Principles and Design Considerations." MDPI Sensors 2025, 25, 6561. PMID: 41228787](https://doi.org/10.3390/s25216561)
 
 ### Workshop Presentations
 
