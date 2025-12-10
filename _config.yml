@@ -23,7 +23,7 @@ repository               : "natelud/natelud.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile_pic.jpg"
   name             : "Nate Ludlow"
   pronouns         : # example: "she/her"  
   bio              : "Masters Student at Carnegie Mellon University Robotics Institute"
