@@ -28,7 +28,8 @@ I'm developing methods that integrate knowledge graphs with deep reinforcement l
 - Integration with actor-critic RL framework using attention mechanisms
 - Dynamic graph updates based on observed interactions
 
-**Status:** Submission in review for AAMAS 2026 - Collaboration with Honda Research Institute - **Advisor:** Dr. Katia Sycara
+**Status:** Submission in review for AAMAS 2026 
+**Advisor:** Dr. Katia Sycara - Collaboration with Honda Research Institute
 
 ---
 
@@ -63,7 +64,8 @@ Developed computational models of human driver behavior to improve autonomous ve
 **Follow-on Work:**
 After completing the RISS Fellowship, I continued working with the DRIVE Lab to develop Control Barrier Function-inspired Voronoi cell navigation techniques that enable large numbers of agents in multi-agent systems to quickly compute safe controls under motion uncertainty.
 
-**Publication:** ICRA 2024 - **Advisor:** Dr. John Dolan
+**Publication:** ICRA 2024
+**Advisor:** Dr. John Dolan
 
 ---
 
@@ -89,7 +91,8 @@ Investigated control strategies for robots that physically collaborate with huma
 - Developed adaptive impedance control framework that accommodates significant variability in human partner forces and movement strategies
 - Designed transparent control behaviors that communicate robot intent, improving operator trust and collaborative task performance
 
-**Presentation:** UCUR 2023 Workshop - **Advisor:** Dr. Marc Killpack and Dr. John Salmon
+**Presentation:** UCUR 2023 Workshop
+**Advisor:** Dr. Marc Killpack and Dr. John Salmon
 
 ---
 
@@ -108,7 +111,8 @@ Led a capstone research team developing an automated robotic system for measurin
 - Improved measurement consistency and repeatability
 - System deployed for ongoing agricultural research
 
-**Publication:** MDPI Sensors 2025 - **Advisor:** Dr. Douglas Cook
+**Publication:** MDPI Sensors 2025
+**Advisor:** Dr. Douglas Cook
 
 ---
 
