@@ -133,7 +133,7 @@ Designed and built an automated robotic system for measuring maize stalk mechani
 
 I'm broadly interested in:
 
-- **Physical Human-Robot Interaction:** Safe and natural interaction through touch and force sharing
+- **Physical Human-Robot Interaction:** Safe and natural interaction between physical embodied systems and humans
 - **Multi-agent Systems:** Effective coordination between robots and humans in shared tasks
 - **Assistive Robotics:** Robots that help people in everyday life
 - **Safety-critical Control:** Guaranteeing safe behavior in uncertain, dynamic environments with humans
