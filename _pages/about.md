@@ -14,10 +14,12 @@ I'm a Masters student in the [Robotics Institute](https://www.ri.cmu.edu/) at Ca
 
 My work sits at the intersection of machine learning, robotics, and human-robot collaboration. I'm particularly interested in:
 
-- **Knowledge Graph-Augmented Reinforcement Learning**: Integrating symbolic knowledge representations with deep reinforcement learning to improve sample efficiency and interpretability in multi-agent systems
-- **Human-Robot Interaction**: Developing robots that can effectively collaborate with humans in shared workspaces and understand human behavior patterns
-- **Physical HRI**: Exploring how robots can safely and naturally interact with humans through co-manipulation and assistive behaviors
-- **Multi-Agent Collaboration**: Building frameworks for robots to work alongside humans in dynamic, collaborative environments
+- **Physical Human-Robot Interaction:** Safe and natural interaction between physical embodied systems and humans
+- **Multi-agent Systems:** Effective coordination between robots and humans in shared tasks
+- **Assistive Robotics:** Robots that help people in everyday life
+- **Safety-critical Control:** Guaranteeing safe behavior in uncertain, dynamic environments with humans
+- **Learning from Demonstrations:** Using human demonstrations to train robots to behave more optimally and interpretably
+- **Neuro-symbolic AI:** Combining learning with structured knowledge for robustness and interpretability
 
 ## Background
 
