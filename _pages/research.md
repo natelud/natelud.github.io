@@ -36,7 +36,7 @@ I'm developing methods that integrate knowledge graphs with deep reinforcement l
 
 Building on my KG-RL framework, I'm exploring how temporal knowledge graphs can help robots reason about dynamic environments. This addresses the challenge of representing and utilizing time-varying relationships in collaborative robotics.
 
-**Key Innovations:**
+**Key Contributions:**
 - **2.5x improvement** in sample efficiency over standard RL in enviroments with highly difficult temporal dynamics
 - Time-stamped edges capturing evolving relationships
 - LSTM-based encoding of temporal graph patterns
@@ -70,13 +70,24 @@ After completing the RISS Fellowship, I continued working with the DRIVE Lab to 
 ### Dynamic Human-Robot Co-Manipulation
 *BYU RAD Lab | 2022-2024*
 
-Investigated control strategies for robots that physically collaborate with humans in manipulation tasks. Focused on developing systems that can safely share forces with human partners while accomplishing shared goals, with applications to assistive technologies and collaborative manufacturing. Work involved developing an omnidirectional mobile robotic base used in human-robot co-manipulation tasks, designing and building a VR system that allowed human participants to see desired collaborative task goals in the real world through their VR headset, and tested dynamic co-manipulation tequiresue, building adaptations to impednace control methods that alllowed dynamic co-manipulation between humans and robots with actions such as throwing objects jointly.
+Investigated control strategies for robots that physically collaborate with humans in manipulation tasks, where the robot and human partner simultaneously grasp and manipulate shared objects. This work focused on developing systems that enable safe force sharing between human and robot partners to accomplish dynamic collaborative goals such as cooperative swinging, throwing, and tossing of objects—applications relevant to assistive technologies and collaborative manufacturing.
+
+**System Development:**
+- Designed and implemented an omnidirectional mobile robotic base for physical human-robot co-manipulation tasks, including ROS software architecture and robust control algorithms for safe interaction
+- Built a VR experimental platform with force/torque sensing that allowed human participants to see collaborative task goals overlaid on the real world through their VR headset, enabling controlled studies of human-human and human-robot interaction dynamics
+- Developed adaptations to impedance control methods that enabled dynamic co-manipulation between humans and robots, including high-acceleration tasks such as jointly throwing objects
 
 **Technical Approach:**
+- Implemented compliant control algorithms using impedance control frameworks that allow the robot to behave like a programmable mechanical spring-damper system
+- Developed real-time parameter adaptation algorithms that adjust robot stiffness and damping based on detected human partner force inputs
+- Integrated 6-axis force-torque sensors operating at 1kHz+ update rates to measure interaction forces during dynamic manipulation
+- Conducted stability analysis of coupled human-robot dynamics to ensure safe physical interaction during high-acceleration tasks
 
-**Applications:**
-
-**Key Insights:**
+**Key Contributions:**
+- Dynamic co-manipulation tasks (throwing, tossing) require careful tuning of impedance parameters to balance responsiveness with stability
+- VR-augmented reality systems provide an effective platform for studying and training human-robot collaboration behaviors
+- Human partners exhibit significant variability in applied forces and movement strategies, requiring adaptive control approaches
+- Transparent, predictable robot behavior that clearly communicates intent builds operator trust and improves task performance
 
 **Presentation:** UCUR 2023 Workshop | **Advisor:** Prof. Marc Killpack
 
