@@ -1,0 +1,236 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{paracol}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Tighter margins for a dense two-column layout
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Subtle palette
+\definecolor{boxbg}{HTML}{F2F3F5}   % very light cool-gray panel
+\definecolor{accent}{HTML}{2B3A55}  % restrained dark slate
+
+% Two-column geometry: left sidebar = 1/3, main = 2/3
+\setlength{\columnsep}{0.05\textwidth}
+\columnratio{0.31}
+
+% Soft shaded panel behind the left sidebar
+\backgroundcolor{c[0](-12pt,-14pt)(12pt,14pt)}{boxbg}
+
+% Section formatting (subtle slate rule)
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{accent}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+\newcommand{\spacing}{-0.44cm}
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+% Experience / research subheading sized to the current column width
+\newcommand{\resumeSubheading}[4]{
+  \vspace{0pt}\item
+    \begin{tabular*}{1.0\linewidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\small #2} \\
+    \end{tabular*}
+    \vspace{1pt}
+    {\small\textit{#3 ~$\vert$~ #4}}
+    \vspace{-4pt}
+}
+
+% Education entry for the sidebar (stacked, no right column)
+\newcommand{\eduItem}[4]{
+  \vspace{1pt}
+  {\textbf{#1}}\\
+  {\small #2}\\
+  {\footnotesize\textit{#3}}\\
+  {\footnotesize #4}
+  \vspace{4pt}
+}
+
+% Sidebar skill block: bold category, then comma list beneath
+\newcommand{\skillBlock}[2]{
+  \vspace{2pt}
+  {\small\textbf{#1}}\\
+  {\small #2}
+  \vspace{3pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{\spacing}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=0pt, parsep=0pt, topsep=1pt, leftmargin=0.13in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%
+
+\begin{document}
+
+\newcommand{\name}{Nathan Ludlow}
+\newcommand{\role}{Robotics Software Engineer}
+\newcommand{\workemail}{nateludlow@gmail.com}
+\newcommand{\linkedin}{linkedin.com/in/nathan-ludlow}
+\newcommand{\website}{natelud.github.io}
+
+%----------HEADING (full width)----------
+\begin{center}
+    {\Huge \scshape \name} \\ \vspace{3pt}
+    {\large \scshape \role} \\ \vspace{3pt}
+    \small
+    \href{mailto:\workemail}{\underline{\workemail}} ~$\vert$~
+    \href{https://\linkedin}{\underline{\linkedin}} ~$\vert$~
+    \href{https://\website}{\underline{\website}}
+\end{center}
+\vspace{2pt}
+
+%----------SUMMARY / STORY (full width panel)----------
+{\setlength{\fboxsep}{6pt}%
+\noindent\colorbox{boxbg}{%
+\begin{minipage}{\dimexpr\textwidth-2\fboxsep\relax}
+\small
+I am a robotics software engineer who started in mechanical design and grew into full-stack autonomy. Over two years in industry I built perception, planning, and control software for industrial robot arms, including a domain-specific language that let LLMs program manipulators from natural language. Across four years of research I have published in reinforcement learning, autonomous driving, and physical human-robot collaboration, and I now want to bring that range to a team shipping real-world robotics.
+\end{minipage}}}
+\vspace{-12pt}
+
+%====================================================================
+\begin{paracol}{2}
+
+%%%%%%%%%%%%%%%%%%%%%% LEFT SIDEBAR (1/3) %%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Skills}
+\vspace{2pt}
+
+\skillBlock{Programming}{Python, C++, C, Rust, Julia, MATLAB, Java}
+
+\skillBlock{ML / RL}{PyTorch, JAX / JaxMARL, TensorFlow, RLlib, Gymnasium, Weights \& Biases; multi-agent \& cooperative RL}
+
+\skillBlock{Robotics}{ROS / ROS2, Gazebo, MuJoCo, PyBullet, OpenCV, RealSense SDK}
+
+\skillBlock{Methods}{Perception (Kalman/EKF, point-cloud processing, pose estimation); planning (RRT, A*, MPPI, trajectory optimization); control (MPC, control barrier functions, LQR, impedance control); knowledge-graph reasoning, LLM integration}
+
+\skillBlock{Robot Platforms}{Yaskawa, xArm, Universal Robots, Franka Panda, KUKA, Farm-ng}
+
+\skillBlock{Hardware / CAD}{SolidWorks (Certified), Onshape, Inventor, strain-gauge sensing, embedded control}
+
+\skillBlock{Tools}{Linux, Git, Docker, CUDA, \LaTeX}
+
+\skillBlock{Languages}{English (Native), Spanish (Fluent)}
+
+\vspace{8pt}
+
+\section{Education}
+\vspace{4pt}
+
+\eduItem{Carnegie Mellon University}
+        {M.S.\ in Robotics}
+        {Advised by Dr.\ Katia Sycara \textbf{|} GPA 4.00/4.00}
+        {Expected Jul.\ 2026 \textbf{·} Pittsburgh, PA}
+
+\eduItem{Brigham Young University}
+        {B.S.\ in Mechanical Engineering}
+        {Emphasis: Dynamics, Controls, Robotics}
+        {Minors: CS, Math \textbf{|} GPA 3.79/4.00}
+
+\vspace{1pt}
+{\footnotesize Apr.\ 2024 \textbf{·} Provo, UT}
+
+%%%%%%%%%%%%%%%%%%%%%% RIGHT MAIN COLUMN (2/3) %%%%%%%%%%%%%%%%%%%%%%
+\switchcolumn
+
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Altitude AI}{May 2022 -- Sep.\ 2023}
+      {Robotics Software Engineer}{Salt Lake City, UT}
+      \resumeItemListStart
+        \resumeItem{\textbf{Automated meat processing:} Built the perception, path-planning, and control pipeline for robotic pork-belly skin removal, coordinating industrial arms with electric cutting tools on variable, deformable workpieces in production.}
+        \resumeItem{\textbf{Natural-language robot programming:} Designed a domain-specific language that let LLMs generate executable code for industrial arms from natural-language instructions, enabling customers to rapidly create and modify custom tasks on our hardware platforms and accelerating manipulation-task prototyping.}
+        \resumeItem{Deployed a pick-and-place robotic system at a customer facility, and ran on-site deployment tests of the pork-skinning system to validate performance under real production conditions.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {CMU Advanced Agent Robotics (AART) Lab}{Sep.\ 2024 -- Present}
+      {Graduate Research Assistant --- Dr.\ Katia Sycara}{Pittsburgh, PA}
+      \resumeItemListStart
+        \resumeItem{Developed Knowledge Graph-Augmented Reinforcement Learning (KG-RL), leveraging semantic relationships for cooperative multi-agent tasks; demonstrated up to \textbf{3$\times$ faster convergence} and improved final performance across Overcooked-AI, MiniGrid, Craftax, and AI-Habitat. \textit{First-author submission under review.}}
+        \resumeItem{Extending KG-RL to temporal knowledge graphs with attention-based and recurrent encoders (Time2Vec, Time-LSTM) to reason over dynamic state evolution and temporal dependencies.}
+        \resumeItem{Engineered a vectorized JAX / JaxMARL training stack on lab GPU servers, building reproducible PPO training and evaluation pipelines for multi-agent benchmarks.}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {CMU Driverless Intelligent Vehicles (DRIVE) Lab}{Jun.\ 2023 -- Aug.\ 2024}
+      {RISS Research Fellow \& Research Assistant --- Dr.\ John M.\ Dolan}{Pittsburgh, PA}
+      \resumeItemListStart
+        \resumeItem{Designed a hierarchical risk-aware behavioral model for simulating human drivers in AV testing, introducing a forward-looking Gaussian risk metric with social-pooling trajectory prediction. \textit{First-author publication at ICRA 2024.}}
+        \resumeItem{Developed a risk-aware Voronoi-cell approach inspired by control barrier functions for safe multi-agent navigation around dynamic obstacles under motion uncertainty.}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {BYU Robotics And Dynamics (RAD) Laboratory}{Feb.\ 2022 -- Jun.\ 2024}
+      {Research Assistant --- Dr.\ Marc Killpack \& Dr.\ John Salmon}{Provo, UT}
+      \resumeItemListStart
+        \resumeItem{Developed dynamic control methods for physical human-robot co-manipulation of large objects (cooperative swinging, throwing, tossing) and built the full hardware/software architecture for an omnidirectional mobile base. \textit{UCUR 2023.}}
+        \resumeItem{Built a VR platform with force sensing to analyze human-human interaction dynamics during cooperative manipulation.}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {BYU Crop Biomechanics Laboratory}{Sep.\ 2023 -- Apr.\ 2024}
+      {Capstone Team Lead --- Dr.\ Douglas Cook}{Provo, UT}
+      \resumeItemListStart
+        \resumeItem{Led a team building an autonomous robotic system to measure maize-stalk stiffness in the field, designing a novel strain-gauge sensor package, processing algorithms, and navigation control. \textit{Publication in MDPI Sensors 2025.}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Publications}
+      \resumeItemListStart
+        \resumeItem{\textbf{N.\ Ludlow}, V.\ Tadiparthi, H.\ N.\ Mahjoub, Y.\ Xie, W.\ Kim, K.\ Sycara, S.\ Stepputtis. ``Knowledge Graph-Augmented Reinforcement Learning.'' \textit{TMLR}, 2026. \textit{Under review.}}
+        \resumeItem{\textbf{N.\ Ludlow}, A.\ Krieger, M.\ Menon, J.\ Chandrachud. ``Strategy Search for Human-Robot Teaming.'' \textit{CHAI Workshop}, UC Berkeley, 2026. \textit{To appear.}}
+        \resumeItem{C.\ Noh, K.\ Smith, \ldots, \textbf{N.\ Ludlow}, \ldots, D.\ Cook. \href{https://doi.org/10.3390/s25216561}{``Measurement of Force and Position Using a Cantilever Beam and Multiple Strain Gauges.''} \textit{MDPI Sensors}, 2025.}
+        \resumeItem{\textbf{N.\ Ludlow}, Y.\ Lyu, J.\ M.\ Dolan. \href{https://ieeexplore.ieee.org/document/10610354}{``Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling.''} \textit{ICRA}, 2024.}
+        \resumeItem{\textbf{N.\ Ludlow}, M.\ D.\ Killpack, J.\ L.\ Salmon. \href{https://our.utah.edu/ucur/mobile-base-for-physical-human-robot-interaction-and-co-manipulation/}{``Mobile Base for Physical Human-Robot Interaction and Co-manipulation.''} \textit{UCUR}, 2023.}
+      \resumeItemListEnd
+
+\end{paracol}
+
+\end{document}

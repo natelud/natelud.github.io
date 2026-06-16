@@ -33,7 +33,7 @@ redirect_from:
 *CMU Advanced Agent Robotics Technology (AART) Lab*  
 Advisor: Dr. Katia Sycara | Pittsburgh, PA
 
-* Developed Knowledge Graph-Augmented Reinforcement Learning (KG-RL) methods that leverage semantic relationships to improve agent learning efficiency on complex tasks. Led to first-author paper submission at AAMAS 2026. Collaborative research with Honda Research Institute.
+* Developed Knowledge Graph-Augmented Reinforcement Learning (KG-RL) methods that leverage semantic relationships to improve agent learning efficiency on complex tasks. Led to first-author manuscript under review at TMLR. Collaborative research with Honda Research Institute.
 * Investigating Temporal Knowledge Graph representations for reinforcement learning, enabling agents to reason over dynamic state evolutions and temporal dependencies.
 
 **Research Assistant** (August 2023 – August 2024)  
@@ -64,9 +64,13 @@ Advisors: Dr. Marc Killpack and Dr. John Salmon | Provo, UT
 
 ## Publications
 
+### Under Review
+
+* **N. Ludlow**, V. Tadiparthi, H. N. Mahjoub, Y. Xie, W. Kim, K. Sycara, S. Stepputtis. "Knowledge Graph-Augmented Reinforcement Learning." *TMLR*, 2026. *Under review.*
+
 ### Conference Publications
 
-* [**N. Ludlow**, Y. Lyu and J. Dolan, "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024, pp. 2223-2229, doi: 10.1109/ICRA57147.2024.10610354](https://doi.org/10.3390/s25216561)
+* [**N. Ludlow**, Y. Lyu and J. Dolan, "Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling," 2024 IEEE International Conference on Robotics and Automation (ICRA), Yokohama, Japan, 2024, pp. 2223-2229, doi: 10.1109/ICRA57147.2024.10610354](https://doi.org/10.1109/ICRA57147.2024.10610354)
 
 ### Journal Publications
 
@@ -74,6 +78,7 @@ Advisors: Dr. Marc Killpack and Dr. John Salmon | Provo, UT
 
 ### Workshop Presentations
 
+* **N. Ludlow**, A. Krieger, M. Menon, J. Chandrachud. "Strategy Search for Human-Robot Teaming." *CHAI Workshop*, UC Berkeley, 2026. *To appear.*
 * [**N. Ludlow**, M. D. Killpack, J. L. Salmon, "Mobile Base for Physical Human-Robot Interaction and Co-manipulation," 2023 Utah Conference for Undergraduate Research (UCUR), 2023](https://our.utah.edu/ucur/mobile-base-for-physical-human-robot-interaction-and-co-manipulation/)
 
 ## Professional Experience

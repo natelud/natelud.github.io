@@ -1,163 +1,100 @@
 ---
 layout: archive
-title: "Research"
+title: "Experience"
 permalink: /research/
 author_profile: true
 ---
 
-My research focuses on developing intelligent robots that can effectively collaborate with humans in shared environments. I take a neuro-symbolic approach, combining the strengths of deep learning with structured knowledge representations to create more interpretable, sample-efficient, and robust robotic systems.
+I am a robotics software engineer who started in mechanical design and grew into full-stack autonomy. Over two years in industry I built perception, planning, and control software for industrial robot arms, including a domain-specific language that let LLMs program manipulators from natural language. Across four years of research I have published in reinforcement learning, autonomous driving, and physical human-robot collaboration, and I now want to bring that range to a team shipping real-world robotics.
 
 ---
 
-## Current Research Projects
+## Industry
 
-### Knowledge Graph-Augmented Reinforcement Learning (KG-RL)
+### Altitude AI
+*Robotics Software Engineer · May 2022 – September 2023 · Salt Lake City, UT*
 
-I'm developing methods that integrate knowledge graphs with deep reinforcement learning to improve robot learning in collaborative scenarios. By incorporating symbolic knowledge about tasks, objects, and human behaviors, robots can learn more efficiently and make more interpretable decisions.
+Worked end-to-end across the robotics stack — perception, path planning, control, and real-time execution — on industrial-arm automation for the **meat-packing and processing** industry. Sensor integration, motion generation, on-site deployment; bridging research methods and deployable factory software.
 
-**Key Contributions:**
-- Novel architectures for integrating graph neural networks with RL policies
-- Methods for leveraging prior task knowledge to accelerate learning
-- **3x improvement** in sample efficiency compared to baseline deep RL
-- Applications to collaborative cooking scenarios in Overcooked-AI
-- Improved interpretability through graph-based decision explanations
+**Highlights:**
 
-**Technical Approach:**
-- Structured representations of task elements, agent relationships, and environmental state using knowledge graphs
-- Graph Neural Networks (GNNs) to encode knowledge graph structure
-- Integration with actor-critic RL framework using attention mechanisms
-- Dynamic graph updates based on observed interactions
+- **Automated meat processing — pork-belly skin removal (team lead).** Helped lead the team building the full perception → planning → control pipeline for robotic pork-belly skin removal, coordinating industrial arms with electric cutting tools to operate on variable, deformable workpieces in a production setting. Owned key parts of the perception stack (image segmentation for skin patches on irregular surfaces) and contributed to the cutting-path planner and the real-time control loop. Also ran the **on-site deployment tests** that validated the system under real production conditions.
+- **Natural-language robot programming (LLM-to-Robot DSL).** Designed a domain-specific language that let large language models generate executable code for industrial arms from natural-language instructions. The DSL enabled customers to rapidly create and modify custom tasks on our hardware platforms without writing robot code themselves, and dramatically accelerated internal manipulation-task prototyping.
+- **Pick-and-place deployment at a customer facility.** Contributed to a pick-and-place robotic system that we deployed at a customer's production site, integrating perception (object detection and pose estimation), motion planning, and gripper control into a working factory cell. The deployment work covered everything from on-site commissioning to dialing in cycle-time targets against the customer's existing line.
 
-**Status:** Submission in review for AAMAS 2026 
-**Advisor:** Dr. Katia Sycara - Collaboration with Honda Research Institute
+**Stack:** Python · C++ · ROS · OpenCV · Industrial robotic arms (Yaskawa, UR, xArm) · LLM tooling · On-site production deployment
+
+*See [CV]({{ site.baseurl }}/cv/) for additional context.*
 
 ---
 
-### Temporal Knowledge Graphs for RL (TKG-RL)
+## Research
 
-Building on my KG-RL framework, I'm exploring how temporal knowledge graphs can help robots reason about dynamic environments. This addresses the challenge of representing and utilizing time-varying relationships in collaborative robotics.
+### [AART Lab — Advanced Agent-Robotics Technology]({{ site.baseurl }}/experience/aart-lab/)
+*Graduate Research Assistant · September 2024 – Present · Carnegie Mellon University · Advisor: Prof. Katia Sycara*
 
-**Key Contributions:**
-- **2.5x improvement** in sample efficiency over standard RL in enviroments with highly difficult temporal dynamics
-- Time-stamped edges capturing evolving relationships
-- LSTM-based encoding of temporal graph patterns
-- Backpropagation Through Time (BPTT) for temporal graph updates
+<img src="{{ site.baseurl }}/images/projects/kgrl_high_level.png" alt="Plug-in KG adapter overview" style="max-width:100%;border-radius:6px;margin:0.5em 0;">
 
-**Status:** Active development
+Designed a **backbone-agnostic plug-in knowledge-graph adapter** for reinforcement learning. The adapter merges a static task KG with a dynamic scene graph each step, processes the result with a GCRN, and emits a fixed-width feature vector that splices into *any* policy backbone (CNN-MLP, SoftMoE-LSTM, GTrXL, PoliFormer) with one line of code. Validated across **4 environments × 4 backbones**: up to **3× fewer steps** to optimum on Overcooked / MiniGrid, and a higher final policy than published baselines on Craftax. Robust to 50% KG corruption. Collaboration with **Honda Research Institute**.
 
----
-
-## Past Research Projects
-
-### Human Driver Modeling for Autonomous Vehicles
-*CMU DRIVE Lab | RISS Fellowship 2023*
-
-Developed computational models of human driver behavior to improve autonomous vehicle prediction and decision-making systems. This work addresses a critical challenge in mixed autonomy: understanding and anticipating human driver actions in complex traffic scenarios.
-
-**Contributions:**
-- Hierarchical learned risk-aware planning framework for human driving simulation
-- Novel forward-looking Gaussian risk metric incorporating social pooling-based trajectory prediction
-- Improved prediction accuracy in complex traffic scenarios
-- Framework for integrating human models into AV decision-making
-- Enhanced AV safety through better human behavior anticipation
-
-**Follow-on Work:**
-After completing the RISS Fellowship, I continued working with the DRIVE Lab to develop Control Barrier Function-inspired Voronoi cell navigation techniques that enable large numbers of agents in multi-agent systems to quickly compute safe controls under motion uncertainty.
-
-**Publication:** ICRA 2024
-**Advisor:** Dr. John Dolan
+**Stack:** JAX / JaxMARL · PyTorch · GCRN · IPPO · OWLv2 / SAM2 (open-world scene graphs)
+&nbsp; · &nbsp; *First-author submission under review at TMLR*
+&nbsp; · &nbsp; [**Read full write-up →**]({{ site.baseurl }}/experience/aart-lab/) &nbsp;·&nbsp; [Paper (PDF)]({{ site.baseurl }}/files/TMLR_KGRL_paper.pdf)
 
 ---
 
-### Dynamic Human-Robot Co-Manipulation
-*BYU RAD Lab | 2022-2024*
+### [DRIVE Lab — Driverless Intelligent Vehicles]({{ site.baseurl }}/experience/drive-lab/)
+*Research Assistant (Aug 2023 – Aug 2024) · RISS Fellow (Summer 2023) · Carnegie Mellon University · Advisor: Prof. John M. Dolan*
 
-Investigated control strategies for robots that physically collaborate with humans in manipulation tasks, where the robot and human partner simultaneously grasp and manipulate shared objects. This work focused on developing systems that enable safe force sharing between human and robot partners to accomplish dynamic collaborative goals such as cooperative swinging, throwing, and tossing of objects—applications relevant to assistive technologies and collaborative manufacturing.
+<img src="{{ site.baseurl }}/images/projects/riss_graphical_abstract.jpg" alt="Hierarchical risk-aware planning" style="max-width:100%;border-radius:6px;margin:0.5em 0;">
 
-**System Development:**
-- Designed and implemented an omnidirectional mobile robotic base for physical human-robot co-manipulation tasks, including ROS software architecture and robust control algorithms for safe interaction
-- Built a VR experimental platform with force/torque sensing that allowed human participants to see collaborative task goals overlaid on the real world through their VR headset, enabling controlled studies of human-human and human-robot interaction dynamics
-- Developed adaptations to impedance control methods that enabled dynamic co-manipulation between humans and robots, including high-acceleration tasks such as jointly throwing objects
+Designed a **hierarchical risk-aware behavioral model** for simulating human drivers in AV testing, introducing a forward-looking Gaussian risk metric with social-pooling trajectory prediction. **First-author at ICRA 2024.** Follow-on work: [Risk-aware Voronoi cell navigation]({{ site.baseurl }}/experience/wbvc/) inspired by Control Barrier Functions for decentralized, many-agent safe navigation around dynamic obstacles under motion uncertainty.
 
-**Technical Approach:**
-- Implemented compliant control algorithms using impedance control frameworks that allow the robot to behave like a programmable mechanical spring-damper system
-- Developed real-time parameter adaptation algorithms that adjust robot stiffness and damping based on detected human partner force inputs
-- Integrated 6-axis force-torque sensors operating at 1kHz+ update rates to measure interaction forces during dynamic manipulation
-- Conducted stability analysis of coupled human-robot dynamics to ensure safe physical interaction during high-acceleration tasks
-
-**Contributions:**
-- Demonstrated successful dynamic co-manipulation (throwing, tossing) through careful tuning of impedance control parameters to balance responsiveness with stability
-- Created VR-augmented experimental platform that enables systematic study of human-robot collaboration dynamics and serves as a training tool for operators
-- Developed adaptive impedance control framework that accommodates significant variability in human partner forces and movement strategies
-- Designed transparent control behaviors that communicate robot intent, improving operator trust and collaborative task performance
-
-**Presentation:** UCUR 2023 Workshop
-**Advisor:** Dr. Marc Killpack and Dr. John Salmon
+**Stack:** PyTorch · Convolutional Social Pooling · NGSIM · Risk-aware planning · CBF / Voronoi
+&nbsp; · &nbsp; [ICRA 2024 paper](https://doi.org/10.1109/ICRA57147.2024.10610354)
+&nbsp; · &nbsp; [**Read full write-up →**]({{ site.baseurl }}/experience/drive-lab/)
 
 ---
 
-### Automated Maize Stalk Stiffness Measurement
-*BYU Crop Biomechanics Laboratory | Capstone Project 2023-2024*
+### [RAD Lab — Robotics And Dynamics Laboratory]({{ site.baseurl }}/experience/rad-lab/)
+*Undergraduate Research Assistant · Feb 2022 – Jun 2024 · Brigham Young University · Advisors: Prof. Marc Killpack and Prof. John Salmon*
 
-Led a capstone research team developing an automated robotic system for measuring maize stalk mechanical properties. The system enables high-throughput measurement for agricultural research, helping plant breeders identify desirable genetic traits, and farmers idnetify fields that need additional help, or earlier harvest times.
+Developed dynamic control methods for **physical human-robot co-manipulation** of large objects (cooperative swinging, throwing, tossing). Built the full hardware/software architecture for an omnidirectional mobile base (>3 m/s, >68 kg payload) and a VR experimental platform with force sensing for analyzing human-human interaction dynamics during cooperative manipulation.
 
-**System Design:**
-- Novel strain gauge sensor package for non-destructive stiffness testing
-- Data processing algorithms to convert strain measurements into stiffness metrics
-- Autonomous navigation and data collection control algorithms for robotic platform
-
-**Results:**
-- Reduced measurement time by over 500% compared to manual methods
-- Improved measurement consistency and repeatability
-- System deployed for ongoing agricultural research
-
-**Publication:** MDPI Sensors 2025
-**Advisor:** Dr. Douglas Cook
+**Stack:** ROS · MuJoCo · Impedance control · 6-axis F/T sensing · VR experimental platforms · Mocap
+&nbsp; · &nbsp; UCUR 2023 workshop presentation
+&nbsp; · &nbsp; [**Read full write-up →**]({{ site.baseurl }}/experience/rad-lab/)
 
 ---
 
-### Industrial Robotic Automation
-*Altitude AI | 2022-2023*
+### [Crop Biomechanics Laboratory]({{ site.baseurl }}/experience/crop-lab/)
+*Capstone Team Lead · September 2023 – April 2024 · Brigham Young University · Advisor: Prof. Douglas Cook*
 
-Developed robotic automation systems for meat packing and processing applications using industrial robotic arms.
+Led a 6-person senior capstone team building an autonomous robotic system to measure **maize-stalk stiffness** in the field. Designed a novel strain-gauge sensor package, data-processing algorithms, and autonomous navigation control. Reduced measurement time by over 500% vs. manual methods; calibration R² > 0.99 across three prototypes. Co-author on a related sensor-design paper.
 
-**Key Projects:**
-
-**LLM-Driven Robot Programming:**
-- Developed a domain-specific programming language that enables large language models to generate executable code for industrial robots from natural language instructions
-- Dramatically accelerated prototyping of robotic manipulation tasks
-- Enabled rapid iteration on manipulation strategies without manual programming
-
-**Pork Skinning Robotic System:**
-- Full stack development of automated pork belly skin removal system
-- Image segmentation algorithms for identifying skin patches on irregular surfaces
-- Path planning and control algorithms for precision cutting with industrial robot arms
-- Perception, planning, and control pipeline for autonomous operation
-
-**Impact:** Demonstrated practical application of advanced AI and robotics techniques in challenging industrial environments with strict performance and safety requirements.
+**Stack:** Python · Kivy · Raspberry Pi · Strain-gauge instrumentation · Farm-ng Amiga
+&nbsp; · &nbsp; [MDPI Sensors 2025](https://doi.org/10.3390/s25216561)
+&nbsp; · &nbsp; [**Read full write-up →**]({{ site.baseurl }}/experience/crop-lab/)
 
 ---
 
-## Research Interests
+## Research Themes
 
-I'm broadly interested in:
-
-- **Physical Human-Robot Interaction:** Safe and natural interaction between physical embodied systems and humans
-- **Multi-agent Systems:** Effective coordination between robots and humans in shared tasks
-- **Assistive Robotics:** Robots that help people in everyday life
-- **Safety-critical Control:** Guaranteeing safe behavior in uncertain, dynamic environments with humans
-- **Learning from Demonstrations:** Using human demonstrations to train robots to behave more optimally and interpretably
-- **Neuro-symbolic AI:** Combining learning with structured knowledge for robustness and interpretability
+- **Physical Human-Robot Interaction** — Safe, natural interaction between embodied systems and people (RAD Lab, AART Lab)
+- **Multi-Agent Systems** — Coordination between robots and humans in shared tasks (AART Lab, DRIVE Lab, undergrad Voronoi work)
+- **Safety-Critical Control** — Guaranteeing safe behavior under uncertainty (DRIVE Lab Voronoi, course work on CBF/HJR, filter distillation)
+- **Learning from Demonstrations** — Using human demos to bias policies toward human-compatible behavior (AART Lab, Ad-Hoc Teaming)
+- **Neuro-Symbolic AI** — Combining learning with structured knowledge for robustness and interpretability (AART Lab thesis work)
 
 ## Collaborations
 
-- **Honda Research Institute:** Neuro-symbolic approaches for robotic collaboration and student-teacher methods
-- **CMU AART Lab:** Core research on KG-RL and TKG-RL methods
-- **CMU DRIVE Lab:** Human-robot interaction in autonomous driving contexts and autonomus navigation
-- **BYU RAD Lab:** Physical human-robot collaboration and control
-- **BYU Crop Biomechanics Laboratory:** Agricultural robotics and automation
-- **Altitude AI:** Industrial robotic automation
+- **Honda Research Institute** — Neuro-symbolic methods for collaborative robotics
+- **CMU AART Lab** — KG-RL / TKG-RL methods
+- **CMU DRIVE Lab** — Human driver modeling and autonomous navigation
+- **BYU RAD Lab** — Physical human-robot collaboration and control
+- **BYU Crop Biomechanics Lab** — Agricultural robotics and sensor design
+- **Altitude AI** — Industrial robotic automation
 
 ---
 
-*I'm actively seeking PhD positions for Fall 2026 in labs working on physical human-robot interaction.*
+*Open to robotics SWE and ML/RL engineering roles starting Summer 2026 — reach out via [email](mailto:nludlow@andrew.cmu.edu) or [LinkedIn](https://www.linkedin.com/in/nathan-ludlow).*
