@@ -97,4 +97,4 @@ Led a 6-person senior capstone team building an autonomous robotic system to mea
 
 ---
 
-*Open to robotics SWE and ML/RL engineering roles starting Summer 2026 — reach out via [email](mailto:nludlow@andrew.cmu.edu) or [LinkedIn](https://www.linkedin.com/in/nathan-ludlow).*
+*Open to robotics engineering roles starting Summer 2026 — reach out via [email](mailto:nludlow@andrew.cmu.edu) or [LinkedIn](https://www.linkedin.com/in/nathan-ludlow).*

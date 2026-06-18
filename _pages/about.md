@@ -10,7 +10,7 @@ redirect_from:
 
 I am a robotics software engineer who started in mechanical design and grew into full-stack autonomy. Over two years in industry I built perception, planning, and control software for industrial robot arms, including a domain-specific language that let LLMs program manipulators from natural language. Across four years of research I have published in reinforcement learning, autonomous driving, and physical human-robot collaboration, and I now want to bring that range to a team shipping real-world robotics.
 
-I'm finishing an M.S. in Robotics at [Carnegie Mellon University](https://www.ri.cmu.edu/) (July 2026), advised by [Prof. Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) in the [AART Lab](https://www.ri.cmu.edu/robotics-groups/advanced-agent-robotics-technology-lab/). I'm open to **robotics SWE and ML/RL engineering roles starting Summer 2026** — [download my CV (PDF)]({{ site.baseurl }}/files/CV_Nate_Ludlow.pdf).
+I'm finishing an M.S. in Robotics at [Carnegie Mellon University](https://www.ri.cmu.edu/) (July 2026), advised by [Prof. Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) in the [AART Lab](https://www.ri.cmu.edu/robotics-groups/advanced-agent-robotics-technology-lab/). I'm open to **robotics engineering roles starting Summer 2026** — [download my CV (PDF)]({{ site.baseurl }}/files/CV_Nate_Ludlow.pdf).
 
 ## What I Work On
 
@@ -37,4 +37,4 @@ See [Experience]({{ site.baseurl }}/research/) for lab and industry work, [Proje
 
 ---
 
-*Open to robotics SWE and ML/RL engineering roles starting Summer 2026 — reach out via [email](mailto:nludlow@andrew.cmu.edu) or [LinkedIn](https://www.linkedin.com/in/nathan-ludlow).*
+*Open to robotics engineering roles starting Summer 2026 — reach out via [email](mailto:nludlow@andrew.cmu.edu) or [LinkedIn](https://www.linkedin.com/in/nathan-ludlow).*
