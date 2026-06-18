@@ -32,6 +32,7 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
 
 % Subtle palette
 \definecolor{boxbg}{HTML}{F2F3F5}   % very light cool-gray panel
@@ -42,7 +43,7 @@
 \columnratio{0.31}
 
 % Soft shaded panel behind the left sidebar
-\backgroundcolor{c[0](-12pt,-14pt)(12pt,14pt)}{boxbg}
+\backgroundcolor{c[0](2pt,-12pt)(6pt,-26pt)}{boxbg}
 
 % Section formatting (subtle slate rule)
 \titleformat{\section}{
@@ -121,9 +122,9 @@
 \noindent\colorbox{boxbg}{%
 \begin{minipage}{\dimexpr\textwidth-2\fboxsep\relax}
 \small
-I am a robotics software engineer who started in mechanical design and grew into full-stack autonomy. Over two years in industry I built perception, planning, and control software for industrial robot arms, including a domain-specific language that let LLMs program manipulators from natural language. Across four years of research I have published in reinforcement learning, autonomous driving, and physical human-robot collaboration, and I now want to bring that range to a team shipping real-world robotics.
+I am a robotics software engineer who started in mechanical design and grew into full-stack autonomy. Over two years in industry I built perception, planning, and control software for industrial robot arms, including a domain-specific language that let LLMs program manipulators from natural language. Across four years of research I have published in reinforcement learning, autonomous driving, and physical human-robot collaboration. I want to bring effective robotics solutions to real-world problems.
 \end{minipage}}}
-\vspace{-12pt}
+\vspace{3pt}
 
 %====================================================================
 \begin{paracol}{2}
@@ -135,7 +136,7 @@ I am a robotics software engineer who started in mechanical design and grew into
 
 \skillBlock{Programming}{Python, C++, C, Rust, Julia, MATLAB, Java}
 
-\skillBlock{ML / RL}{PyTorch, JAX / JaxMARL, TensorFlow, RLlib, Gymnasium, Weights \& Biases; multi-agent \& cooperative RL}
+\skillBlock{ML / RL}{PyTorch, JAX / JaxMARL, TensorFlow, RLlib, Gymnasium, Weights \& Biases; PPO, multi-agent \& cooperative RL}
 
 \skillBlock{Robotics}{ROS / ROS2, Gazebo, MuJoCo, PyBullet, OpenCV, RealSense SDK}
 
@@ -176,9 +177,9 @@ I am a robotics software engineer who started in mechanical design and grew into
       {Altitude AI}{May 2022 -- Sep.\ 2023}
       {Robotics Software Engineer}{Salt Lake City, UT}
       \resumeItemListStart
-        \resumeItem{\textbf{Automated meat processing:} Led a team to build the perception, path-planning, and control pipeline for robotic pork-belly skin removal, coordinating industrial arms with electric cutting tools in an assembly line.}
+        \resumeItem{\textbf{Automated meat processing:} Led a team to build the perception, path-planning, and control pipeline for robotic pork-belly skin removal, coordinating industrial arms with electric cutting tools on an assembly line.}
         \resumeItem{\textbf{Natural-language robot programming:} Designed a domain-specific language that let LLMs generate executable code for industrial arms from natural-language instructions, enabling customers to rapidly create and modify custom tasks on our hardware platforms and accelerating manipulation-task prototyping.}
-        \resumeItem{Part of the team that developed an adaptive deployed a pick-and-place robotic system for meat processing at a customer facility, and ran on-site deployment tests of the pork-skinning system to validate performance under real production conditions.}
+        \resumeItem{Part of the team that developed and deployed an adaptive pick-and-place robotic system for meat processing at a customer facility, and ran on-site deployment tests of the pork-skinning system to validate performance under real production conditions.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -225,7 +226,7 @@ I am a robotics software engineer who started in mechanical design and grew into
 \section{Publications}
       \resumeItemListStart
         \resumeItem{\textbf{N.\ Ludlow}, V.\ Tadiparthi, H.\ N.\ Mahjoub, Y.\ Xie, W.\ Kim, K.\ Sycara, S.\ Stepputtis. ``Knowledge Graph-Augmented Reinforcement Learning.'' \textit{TMLR}, 2026. \textit{Under review.}}
-        \resumeItem{\textbf{N.\ Ludlow}, A.\ Krieger, M.\ Menon, J.\ Chandrachud. ``Strategy Search for Human-Robot Teaming.'' \textit{CHAI Workshop}, UC Berkeley, 2026.}
+        \resumeItem{\textbf{N.\ Ludlow}, A.\ Krieger, M.\ Menon, J.\ Chandrachud. ``Strategy Search for Human-Robot Teaming.'' \textit{CHAI Workshop}, UC Berkeley, 2026. \textit{To appear.}}
         \resumeItem{C.\ Noh, K.\ Smith, \ldots, \textbf{N.\ Ludlow}, \ldots, D.\ Cook. \href{https://doi.org/10.3390/s25216561}{``Measurement of Force and Position Using a Cantilever Beam and Multiple Strain Gauges.''} \textit{MDPI Sensors}, 2025.}
         \resumeItem{\textbf{N.\ Ludlow}, Y.\ Lyu, J.\ M.\ Dolan. \href{https://ieeexplore.ieee.org/document/10610354}{``Hierarchical Learned Risk-Aware Planning Framework for Human Driving Modeling.''} \textit{ICRA}, 2024.}
         \resumeItem{\textbf{N.\ Ludlow}, M.\ D.\ Killpack, J.\ L.\ Salmon. \href{https://our.utah.edu/ucur/mobile-base-for-physical-human-robot-interaction-and-co-manipulation/}{``Mobile Base for Physical Human-Robot Interaction and Co-manipulation.''} \textit{UCUR}, 2023.}
